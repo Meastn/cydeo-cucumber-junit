@@ -8,7 +8,7 @@ Feature: Google Search Functionality
     When user types apple and clicks Enter
     Then user sees apple in the google search title
 
-
+@search
   Scenario: Search functionality results with title verification
     Given user is on Google search page
     When user types "pebbles" and clicks Enter
