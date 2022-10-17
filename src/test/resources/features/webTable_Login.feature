@@ -26,7 +26,7 @@ Feature: Testing user login on Web Table Cydeo
     And user clicks to login button
     Then verify that wrong credentials warning is displayed
 
-    @wip
+    @smoke
   Scenario: user should login with his credentials
     Given user is at login page
 #      When username is
